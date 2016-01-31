@@ -1,13 +1,13 @@
-package programs;
+package tbansal.practice.tree;
 
-import helper.BinaryTreeHelper;
-import helper.BinaryTreeNode;
+import tbansal.practice.tree.util.BinaryTreeHelper;
+import tbansal.practice.tree.util.BinaryTreeNode;
 
 public class MirrorBinaryTree {
 
 	public static void main(String[] args) {
 		System.out.println("hello");
-		BinaryTreeNode<String> node=BinaryTreeHelper.createTree();
+		BinaryTreeNode<String> node=BinaryTreeHelper.createTreeAlphabets();
 		BinaryTreeHelper.printTree(node);
 		mirror(node);
 		BinaryTreeHelper

@@ -1,8 +1,9 @@
-package helper;
+package tbansal.practice.tree.util;
+
 
 public class BinaryTreeHelper {
 
-	public static BinaryTreeNode createTree() {
+	public static BinaryTreeNode createTreeAlphabets() {
 
 		return new BinaryTreeNode<String>(new BinaryTreeNode<String>(
 				new BinaryTreeNode<String>(new BinaryTreeNode<String>("H"),
@@ -32,6 +33,19 @@ public class BinaryTreeHelper {
 			printTreePreOrder(node.left);
 		if (node.hasright())
 			printTreePreOrder(node.right);
+	}
+	
+	public static BinaryTreeNode createTreeNumber() {
+
+		return new BinaryTreeNode(
+				new BinaryTreeNode(new BinaryTreeNode(3),
+						new BinaryTreeNode(
+								new BinaryTreeNode(new BinaryTreeNode(null, new BinaryTreeNode(7), 6), null, 10),
+								new BinaryTreeNode(13), 12),
+						5),
+				new BinaryTreeNode(null, new BinaryTreeNode(new BinaryTreeNode(18), new BinaryTreeNode(23), 20), 16),
+				15);
+
 	}
 
 }

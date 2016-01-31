@@ -1,4 +1,4 @@
-package helper;
+package tbansal.practice.tree.util;
 
 public class BinaryTreeNode<T extends Comparable> implements
 		Comparable<BinaryTreeNode<T>> {
