@@ -1,4 +1,4 @@
-package probelms;
+package tbansal.algos.datastructures;
 /******************************************************************************
  *  Compilation:  javac Knapsack.java
  *  Execution:    java Knapsack N W

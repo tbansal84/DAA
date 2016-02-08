@@ -33,7 +33,7 @@ public class BinaryTree {
 			AtomicReference<Integer> ref) {
 
 		if (n != null) {
-			i++;
+//			i++;
 			if (level > ref.get()) {
 				// System.out.print(level+"--"+ref.get()+"--");
 				ref.set(level);
@@ -166,7 +166,7 @@ public class BinaryTree {
 				n.visited();
 
 			}
-			inOrderTraversal(n.getLeft(), b, false);
+			inOrderTraversal(n.getRight(), b, false);
 
 		}
 	}

@@ -37,25 +37,17 @@ public class Dijkstra
     vertexQueue.add(source);
 
     while (!vertexQueue.isEmpty()) {
-    	System.out.println("----------------------------------------------------------");
-    	System.out.println("\n");
 			Vertex u = vertexQueue.poll();
-        System.out.println(u.toString());
 
             // Visit each edge exiting u
             for (Edge e : u.adjacencies)
  {
 				Vertex v = e.target;
-				System.out.println("Vertex is: " + v);
 				double weight = e.weight;
-				System.out.println(u.minDistance);
-				System.out.println(weight);
-				System.out.println(v.minDistance);
 
 				double distanceThroughU = u.minDistance + weight;
 
 				if (distanceThroughU < v.minDistance) {
-					System.out.println("inside");
 					vertexQueue.remove(v);
 
 					v.minDistance = distanceThroughU;

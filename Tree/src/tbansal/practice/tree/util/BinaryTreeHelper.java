@@ -1,5 +1,8 @@
 package tbansal.practice.tree.util;
 
+import java.util.Queue;
+import java.util.concurrent.ArrayBlockingQueue;
+
 
 public class BinaryTreeHelper {
 
@@ -33,6 +36,22 @@ public class BinaryTreeHelper {
 			printTreePreOrder(node.left);
 		if (node.hasright())
 			printTreePreOrder(node.right);
+	}
+	
+	public static void levelOrderView(BinaryTreeNode<String> node) {
+		Queue<BinaryTreeNode<String>> queue = new ArrayBlockingQueue<BinaryTreeNode<String>>(
+				200);
+		queue.add(node);
+		while (!queue.isEmpty()) {
+			BinaryTreeNode<String> item = queue.poll();
+			System.out.print(item.getValue() + ",");
+			if (item.hasLeft())
+				queue.add(item.getLeft());
+			if (item.hasright())
+				queue.add(item.getRight());
+
+		}
+
 	}
 	
 	public static BinaryTreeNode createTreeNumber() {
