@@ -36,7 +36,7 @@ public class DetectAndRemoveLoop {
 		}
 
 		System.out.println(slow.value);
-		// printLinkedList(n); dont uncomment to avoid circular printing
+		// printLinkedList(n); don't un-comment to avoid circular printing
 		fast.next = null;
 		printLinkedList(n);
 
