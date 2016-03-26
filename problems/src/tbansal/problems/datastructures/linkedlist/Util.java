@@ -27,9 +27,10 @@ public class Util {
 
 	public static void printLinkedList(LinkedNode node) {
 		while (node != null) {
-			System.out.println(node.value);
+			System.out.print(node.value+" ");
 			node = node.next;
 		}
+		System.out.println();
 
 	}
 }
