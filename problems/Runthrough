@@ -1,0 +1,45 @@
+1. find depth of binary tree.
+2. left/right/top view of binary tree
+3. in/pre/post/level order traversal of binary tree
+4. maintain level in tree(find max/min at kth level)
+5. kth highest/lowest in binary tree
+6. check a tree is balanced
+7. spiral printing of tree
+8. print leaves in tree
+9. write insert operations for AVL and red-black trees.
+10. segment trees(go deep)
+11. Fenwick tree
+12. palindromic tree and manacher
+13. k-d trees(most important)
+14 search largest BST in tree.
+
+
+Graphs:
+1. find shortest route in DAG/directed graph/graph with -ve edges.(dijkstra)
+2. traveling salesman/ n queen/  manacher algo
+3. 0/1 knapsack
+4. bin full problem
+
+
+Stack and linked lists:
+
+1. find half/quarter of linked list
+2. remove loop in linkedlist(prepare these questions all of them)
+3. clone linked list with random pointers.
+
+arrays/matrix:
+
+1. find maximum sequence in arrays, return max, return index etc.
+2. find kth element in matrix
+3. find largest islands in mxn matrix not mXm.
+4. find cross product of n matrix
+5. print matrix in spiral
+
+design:
+
+1. design sudoku
+2. design tic tac toe
+3. design parking system
+4. design hotel reservation system
+5. design railway reservation system
+(etc. etc)

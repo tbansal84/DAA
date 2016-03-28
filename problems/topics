@@ -1,0 +1,163 @@
+1. Trees:
+	Binary Tree
+			array representation
+			lined representation
+			
+			height of tree
+						
+			In order traversal
+			pre order
+			post order
+			level order
+			
+			Binary Search Tree
+				search
+				insert 
+				delete
+				height
+			Indexed Binary Search Tree
+				search
+				insert 
+				delete
+			BST with duplicates
+			Applications:
+				Histogramming
+				Best fit bin packing
+				Crossing distribution
+				
+			AVl tree
+				insert
+				remove
+			RED-BLACK Tree
+				insert 
+				remove
+			Splay Tree
+			B-Tree
+			Tournament trees
+			
+			
+2. Graphs
+			Representation
+			Breadth first search
+			Depth first search
+			Applications:
+				Finding aa path
+				Connected paths
+				Spanning Trees
+				
+				
+3. LinkedList
+			Representation
+				Nodes
+				Circular 
+				Doubly
+			Applications
+				Bin Sort
+				Radix Sort
+				Convex Hull
+4. Stacks:
+		Array Representation
+		Linked Represenation
+		Applications:
+			Parenthesis matchin
+			tower of hanoi
+			Reaarange railroad cars
+			switch box 
+			offline
+			Rat in a maze
+5. Queues:
+		Array representation
+		linked representation
+		Applications:
+			Railroad car rearrangement
+			Wire routing
+			image component labeling
+			machine shop simulator
+6. Priority Queues:
+		Heaps
+			Max heap
+				insertion
+				remove
+				search
+			HBLT
+				insert
+				remove
+			Applications:
+				Heap sort
+				machine scheduling
+				Huffman codes
+
+7 Arrays and matrices
+8. Lists
+9. Hashing
+	
+10. Skip lists:
+		
+
+
+
+11. Dynamic Programming:
+	Greedy:
+		Method
+		Applications:
+			Container loading
+			0/1 knapsack
+			topological sorting
+			Bipartile cover
+			Single source shortest path
+			Minimum cost spanning tree
+	
+	Divide and Conquer:
+		Methodd
+		Applications:
+			Defective chessboard
+			Merge Sort
+			Quick sort
+			Selection
+			Closest pair of points
+			Solving recurrence equations
+		Lower bouds
+			MinMax problem
+			Sorting
+		Backtracking:
+			Method
+			Applications:
+				Container loading
+				0/1 knapsack problem
+				Max Clique
+				Traveling salesman
+				Board permutation
+				n queens
+		Branch and Bound:
+			Method
+			Applications: 
+			Container loading
+				0/1 knapsack problem
+				Max Clique
+				Traveling salesman
+				Board permutation
+				n queens
+				
+				
+		Miscellneous:
+			0/1 knapsack
+			matrix multiplication chans
+			all pair shortest paths
+			single source shortest path
+			non crossing subsets of nets
+			largest palindrome
+				manacher
+				palindromic tree
+			tries
+		
+				
+	
+
+	
+			
+			
+			
+			
+			
+		
+		
