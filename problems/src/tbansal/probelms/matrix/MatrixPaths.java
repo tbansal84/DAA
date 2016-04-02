@@ -1,4 +1,4 @@
-package tbansal.problems.dynamicprogramming;
+package tbansal.probelms.matrix;
 
 public class MatrixPaths {
 
