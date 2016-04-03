@@ -7,6 +7,7 @@ public class NQueen {
 	}
 
 	private static boolean issafe(int[][] arr) {
+		
 		return true;
 	}
 
