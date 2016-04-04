@@ -36,6 +36,26 @@ public class ArraysUtil {
 			System.out.println();
 		}
 	}
+	
+	public static void printMatrix(boolean[][] arr, int m, int n) {
+//		for (int j = 0; j < n; j++) {
+//
+//			System.out.print(padBlanks(j));
+//
+//		}
+//		System.out.println();
+		for (int i = 0; i < m; i++) {
+
+			for (int j = 0; j < n; j++) {
+
+//				if (j == 0) {
+//					System.out.print(i + " ");
+//				}
+				System.out.print(arr[i][j]);
+			}
+			System.out.println();
+		}
+	}
 
 	private static String padBlanks(int i) {
 
