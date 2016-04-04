@@ -97,16 +97,6 @@
 
 
 11. Dynamic Programming:
-	Greedy:
-		Method
-		Applications:
-			Container loading
-			0/1 knapsack
-			topological sorting
-			Bipartile cover
-			Single source shortest path
-			Minimum cost spanning tree
-	
 	Divide and Conquer:
 		Methodd
 		Applications:
@@ -119,36 +109,14 @@
 		Lower bouds
 			MinMax problem
 			Sorting
-		Backtracking:
-			Method
-			Applications:
-				Container loading
-				0/1 knapsack problem
-				Max Clique
-				Traveling salesman
-				Board permutation
-				n queens
-		Branch and Bound:
-			Method
-			Applications: 
-			Container loading
-				0/1 knapsack problem
-				Max Clique
-				Traveling salesman
-				Board permutation
-				n queens
 				
 				
 		Miscellneous:
-			0/1 knapsack
-			matrix multiplication chans
-			all pair shortest paths
-			single source shortest path
-			non crossing subsets of nets
+			
+			
 			largest palindrome
 				manacher
 				palindromic tree
-			tries
 		
 				
 	
