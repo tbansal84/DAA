@@ -12,6 +12,12 @@ public class ArraysUtil {
 			System.out.println(element + ",");
 		}
 	}
+	
+	public static void printArrays(int[] array) {
+		for (int element : array) {
+			System.out.println(element + ",");
+		}
+	}
 
 	public static void printBinaryForm(Integer i) {
 		System.out.println(i.toBinaryString(i));
